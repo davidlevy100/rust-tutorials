@@ -36,9 +36,10 @@ This is a Rust tutorial project. The user is working through "The Rust Programmi
 
 ## Project Structure
 
-- One folder per book chapter/exercise at the repo root
-- Each folder is its own Cargo project (`Cargo.toml` + `src/`)
-- `hello_world/` is the exception — raw `rustc`, no Cargo
+- `rust-book/` — "The Rust Programming Language" book exercises
+  - One folder per book chapter/exercise
+  - Each folder is its own Cargo project (`Cargo.toml` + `src/`)
+  - `hello_world/` is the exception — raw `rustc`, no Cargo
 
 ## Rust Notes (things learned along the way)
 
