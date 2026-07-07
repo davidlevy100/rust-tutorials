@@ -34,12 +34,23 @@ This is a Rust tutorial project. The user is working through "The Rust Programmi
 - `rand::thread_rng().gen_range(1..=100)` — inclusive range expression
 - External crate dependency via `Cargo.toml` `[dependencies]`
 
+### FizzBuzz (completed — first independent exercise)
+- Created with `cargo new fizzbuzz` in the `personal/` folder
+- `for i in 1..=100` — range-based for loop with inclusive range
+- `if` / `else if` / `else` — no parens around conditions, braces required
+- `i % 15 == 0` — modulo for divisibility check (15 = both 3 and 5)
+- `println!("{}", i)` — format string with positional argument (could also use `println!("{i}")` inline syntax)
+- `cargo fmt` — auto-formatter, enforces standard Rust style
+- Order of conditions matters — check the combined case first, or it'll be caught by the individual checks
+
 ## Project Structure
 
 - `rust-book/` — "The Rust Programming Language" book exercises
   - One folder per book chapter/exercise
   - Each folder is its own Cargo project (`Cargo.toml` + `src/`)
   - `hello_world/` is the exception — raw `rustc`, no Cargo
+- `personal/` — independent exercises (not following a book)
+  - `fizzbuzz/` — first self-written Rust program
 
 ## Rust Notes (things learned along the way)
 
