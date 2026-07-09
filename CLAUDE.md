@@ -51,6 +51,10 @@ This is a Rust tutorial project. The user is working through "The Rust Programmi
   - `hello_world/` is the exception — raw `rustc`, no Cargo
 - `personal/` — independent exercises (not following a book)
   - `fizzbuzz/` — first self-written Rust program
+- `neetcode/` — [NeetCode 150](https://neetcode.io/) practice in Rust
+  - Grouped by roadmap category (`arrays_hashing/`, `trees/`, …); each problem is its own standalone Cargo project (like the `rust-book/` folders)
+  - Layout per problem: `src/lib.rs` = `todo!()` stub (solution left for the user to write), `tests/<problem>.rs` = example cases as an integration test
+  - All 27 Easy problems scaffolded; Mediums/Hards will slot into the same category folders later
 
 ## Rust Notes (things learned along the way)
 
